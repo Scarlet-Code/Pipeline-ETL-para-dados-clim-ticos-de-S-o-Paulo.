@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Virtual environment
+.venv/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+config/.env
+config/.env.*
+
+# Airflow logs
+logs/*
+!logs/.gitkeep
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+# Testes
+.coverage
+.pytest_cache/
+
+# Airflow configuration
+config/airflow.cfg
+
+# Generated data
+data/raw/*
+data/processed/*
+data/temp_data.parquet
+
+# Keep empty data directories
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Coverage
+.coverage
+.pytest_cache/
+
+# Airflow configuration
+config/airflow.cfg
+
+# Generated data
+data/raw/*
+data/processed/*
+data/temp_data.parquet
+
+# Preserve data directories
+!data/raw/.gitkeep
+!data/processed/.gitkeep
